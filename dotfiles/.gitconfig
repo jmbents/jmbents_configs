@@ -1,0 +1,25 @@
+[user]
+	name = Jared Bents
+	email = jared.bents@rockwellcollins.com
+[sendemail]
+	    smtpserver = smtpimr.rockwellcollins.com
+	        smtpserverport = 25
+[log]
+	    decorate = full
+[color]
+	    ui = true
+	        branch = auto
+		    diff = auto
+		        status = auto
+[core]
+	    editor = vim
+[commit]
+	    template = ~/.gitmessage.txt
+[push]
+	    default = simple
+
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

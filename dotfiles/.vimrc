@@ -25,10 +25,6 @@ set hlsearch  " highlight the search
 set diffopt=filler,iwhite     " ignore all whitespace and sync
 set showmatch           " Show matching brackets.
 
-set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
-
 " highlight current line
 set cul
 " adjust color
