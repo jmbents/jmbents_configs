@@ -9,7 +9,7 @@ set smartindent     "Automatically inserts indentation in some cases
 set cindent         "Like smartindent, but stricter and more customisable
 
 " Spellcheck if asciidoc or commit message. Otherwise highlight current word and instances
-if (expand('%:e') =~ 'asciidoc' || expand('%:F') =~ 'COMMIT_EDITMSG')
+if (expand('%:e') =~ 'asciidoc' || expand('%:e') =~ 'txt' || expand('%:F') =~ 'COMMIT_EDITMSG')
   setlocal spell
 else
   autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
