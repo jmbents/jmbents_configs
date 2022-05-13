@@ -1,8 +1,8 @@
 [user]
 	name = Jared Bents
-	email = jared.bents@rockwellcollins.com
+	email = jared.bents@collins.com
 [sendemail]
-	    smtpserver = smtpimr.rockwellcollins.com
+	    smtpserver = smtpimr.collins.com
 	        smtpserverport = 25
 [log]
 	    decorate = full
