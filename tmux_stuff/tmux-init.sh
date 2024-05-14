@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Uncomment the export below when running in Git Bash for Windows
+# export TERM=xterm
+
 # Window 0
 tmux rename-window alderaan
 tmux split-window -h
