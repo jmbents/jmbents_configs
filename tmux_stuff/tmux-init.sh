@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Uncomment the export below when running in Git Bash for Windows
+# Include the following line in ~/.profile if there are errors using vim inside of tmux because of vim color
 # export TERM=xterm
 
 # Window 0
